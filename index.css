@@ -1,0 +1,89 @@
+.mainimage {
+    position: relative;
+    width:fit-content;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overlay-title {
+    position:absolute;
+    border: solid white 2px;
+    font-family: cursive;
+    padding: 5px 5px;
+    top: 5px;
+    left: 40px;
+    color:white;
+}
+
+.navigation {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.navlist {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:cadetblue;
+}
+
+.navlistitem {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.homedescription {
+    margin-left: auto;
+    margin-right: auto;
+    background-color:cadetblue;
+    color: white;
+}
+
+.homedescriptiontitle {
+    position: inherit;
+    text-align: center;
+    text-transform:uppercase;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.homedescriptionlinebreak {
+    position: inherit;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.homedescriptiontext {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.racereviewstable, td {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    width: 1440px;
+    font-size: x-large;
+}
+
+.racereviewsthead {
+    background-color:lightsalmon;
+    color: white;
+}
+
+th {
+    font-size:x-large
+}
